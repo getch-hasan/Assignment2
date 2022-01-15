@@ -1,0 +1,311 @@
+body{
+    background-color: white;
+}
+h1{
+    font-family: 'Slabo 27px', serif;
+    font-size: 60px;
+}
+.influencer{
+    display: flex;
+   margin: 10px 5%;
+}
+.start{
+    width: 50%;
+}
+.camera{
+    width: 50%;
+    margin-left: 100px;
+    margin-top: 50px;
+    
+   
+   
+   
+    
+  
+}
+.camera img{
+    margin-left: 70px;
+    background-color:whitesmoke;
+    padding: 30px;
+    border-radius: 50%;
+  
+}
+.color{
+    background-color: rgb(72, 66, 75);
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+.start p{
+    margin-bottom: 30px;
+}
+p{
+    font-family: 'Ubuntu', sans-serif;
+}
+.hr{
+   color: rgb(224, 209, 209);
+   border: 1px solid;
+   border-bottom: none;
+   margin: 20px 10%;
+
+    
+}
+
+.logo{
+    margin: 10px 10%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(7,1fr);
+   
+    
+}
+.logo img{
+    width: 100px;
+    padding: 20px;
+}
+.popular{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 50px 10%;
+    grid-gap: 10px;
+
+   
+}
+.collection{
+    background-color: white;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow:  10px -10px 30px thistle;
+    
+    
+}
+.collection img{
+    margin-left: 28px;
+    margin-top: 20px;
+    height: 200px;
+    width: 300px;
+    
+   
+
+}
+.most_popular h2{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 60px;
+    font-family: 'Raleway', sans-serif;
+
+}
+.collection p,h2,h3{
+    margin-left: 20px;
+
+}
+.collection h2{
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 2px;
+    text-align: left;
+    margin-top: 10px;
+    
+}
+.collection h3{
+    font-size: 25px;
+    font-family: 'Inter', sans-serif;
+    margin: 5px 20px;
+    
+}
+.collection p{
+    color: rgb(78, 148, 137);
+}
+#rating{
+    margin-left: 5px;
+    color: rgb(72, 66, 75) ;
+}
+.see-more{
+    text-align: right;
+    margin: 5px 10%;
+    margin-bottom: 30px;
+    
+}
+.see-more a{
+    text-decoration: none;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(72, 66, 75);
+}
+#star{
+    color: #FFDF00;
+}
+.collection p{
+    font-family: 'Questrial', sans-serif;
+    margin: 5px 20px;
+  
+}
+footer{
+    background-color: black;
+  text-align: center;
+    color: white;
+    margin: 0;
+    padding: 30px;
+}
+footer i{
+    margin: 15px;
+    font-size: 15px;
+    background-color:black;
+    border-radius: 50%;
+    
+    
+}
+footer h2{
+    font-size: 30px;
+     margin-bottom: 10px;
+}
+footer p{
+   margin: 5px;
+}
+#p{
+    font-size: 15px;
+    font-weight: 200;
+}
+#copyright{
+    font-size: 2px;
+    margin: 0;
+}
+#icon i{
+    background-color: rgb(45, 49, 49);
+    padding: 10px; 
+    font-size: 20px;
+}
+.me{
+    display: flex;
+    margin: 50px 10%;
+}
+.photo img{
+    width: 300px;
+    height: 300px;
+    background-image: url(images/Circle\ design.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: gray;
+    border-radius: 50%;
+    
+    
+}
+.photo{
+    width: 45%;
+    
+}
+.information{
+    width: 45%;
+}
+.information h2{
+    font-size: 40px;
+    color: rgb(4, 11, 56);
+    font-family: 'Raleway', sans-serif;
+}
+.information p{
+    font-family: 'Questrial', sans-serif;
+
+}
+#about{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+#raw{
+    border: dotted ;
+    width: 300px;
+    border-bottom: none;
+
+}
+.information p a{
+    margin: 10px ;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+ @media screen and (max-width: 667px){
+     
+     .influencer{
+         display: grid;
+         grid-template-columns: repeat(1,1fr);
+     }
+     .camera{
+         margin-left: 10px;
+       
+        
+    }
+    .camera img{
+
+        width: 300px;
+        
+    }
+    .logo{
+       display: block;
+       
+       
+    }
+    .popular{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .me{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+       
+    }
+
+
+
+
+ }
+
+ @media screen and (min-width: 668px) and (max-width: 991px){
+     
+     .influencer{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+        justify-content: center;
+     }
+
+     
+        .logo{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+        }
+        .popular{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+        }
+        .me{
+            display: grid;
+           grid-template-columns: repeat(1,1fr);
+           justify-content: center;
+           align-items: center;
+           
+        }
+        .aboutme{
+            justify-content: center;
+            align-items: center;
+
+        }
+            
+
+
+
+
+
+
+
+
+ }
