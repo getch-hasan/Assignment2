@@ -176,7 +176,7 @@ footer{
     background-color: black;
   text-align: center;
     color: white;
-    margin: 0;
+    margin: 0px;
     padding: 30px;
 }
 footer i{
@@ -192,7 +192,7 @@ footer h2{
      margin-bottom: 10px;
 }
 footer p{
-   margin: 5px;
+   margin: 5px 0px;
 }
 #p{
     font-size: 15px;
@@ -259,6 +259,10 @@ footer p{
     transition-duration: 2s;
 
 }
+footer{
+    width: 100%;
+}
+
 
 
 
@@ -283,9 +287,11 @@ footer p{
        
        
     }
+    
     .popular{
         display: grid;
         grid-template-columns: repeat(1,1fr);
+        margin: 20px;
     }
     .me{
         display: grid;
@@ -309,13 +315,21 @@ footer p{
         margin-left: 5px;
         margin-top: 20px;
     }
+    #icon i{
+        background-color: rgb(45, 49, 49);
+        padding: 5px; 
+        font-size: 15px;
+    }
+    
+    
+    
         
        
        
        
         
       
-    }
+    
     
    
 
@@ -324,7 +338,7 @@ footer p{
 
 
 
- }
+}
 
  @media screen and (min-width: 668px) and (max-width: 991px){
      
@@ -347,6 +361,7 @@ footer p{
             display: grid;
             grid-template-columns: repeat(2,1fr);
             width: 100%;
+            grid-gap: 5px;
         }
         .me{
             display: grid;
@@ -371,6 +386,11 @@ footer p{
         }
         .button a{
             margin: 10px 20px;
+        }
+        #icon i{
+            background-color: rgb(45, 49, 49);
+            padding: 5px; 
+            font-size: 15px;
         }
             
 
