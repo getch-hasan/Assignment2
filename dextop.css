@@ -103,18 +103,14 @@ p{
     margin: 15px;
     border-radius: 10px;
     box-shadow:  10px -10px 30px thistle;
+    width: 350px;
     
     
 }
 .collection img{
-    margin-left: 28px;
-    margin-top: 20px;
-    height: 200px;
-    width: 300px;
-    
-   
-
+    padding: 22px;
 }
+
 .collection img:hover{
 
     transform: scale(1.1);
@@ -338,16 +334,19 @@ footer p{
         grid-template-columns: repeat(1,1fr);
         align-items: center;
         justify-content: center;
+        width: 100%;
      }
 
      
         .logo{
             display: grid;
             grid-template-columns: repeat(3,1fr);
+            width: 100%;
         }
         .popular{
             display: grid;
             grid-template-columns: repeat(2,1fr);
+            width: 100%;
         }
         .me{
             display: grid;
