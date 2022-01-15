@@ -5,6 +5,24 @@ h1{
     font-family: 'Slabo 27px', serif;
     font-size: 60px;
 }
+.header{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 10%;
+}
+.header h1{
+    font-size: 30px;
+}
+.button a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 30px;
+    color: black;
+
+}
+
 .influencer{
     display: flex;
    margin: 10px 5%;
@@ -29,6 +47,11 @@ h1{
     padding: 30px;
     border-radius: 50%;
   
+}
+.camera img:hover{
+  transform: rotate(360deg);
+  transition-duration: 3s;
+ 
 }
 .color{
     background-color: rgb(72, 66, 75);
@@ -92,6 +115,11 @@ p{
    
 
 }
+.collection img:hover{
+
+    transform: scale(1.1);
+    transition-duration: 2s;
+}
 .most_popular h2{
     text-align: center;
     font-size: 40px;
@@ -132,9 +160,13 @@ p{
 }
 .see-more a{
     text-decoration: none;
-    text-decoration: none;
+   
     font-size: 20px;
     color: rgb(72, 66, 75);
+}
+.see-more a:hover{
+   transform: scale(1.2);
+
 }
 #star{
     color: #FFDF00;
@@ -226,6 +258,11 @@ footer p{
     margin: 10px ;
     font-size: 20px;
 }
+.photo img:hover{
+    transform: scale(1.2);
+    transition-duration: 2s;
+
+}
 
 
 
@@ -263,6 +300,20 @@ footer p{
         grid-template-columns: repeat(1,1fr);
        
     }
+    .header{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .button{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin: 20px;
+    }
+    .button a{
+        margin: 20px;
+    }
+
+    
 
 
 
@@ -298,6 +349,18 @@ footer p{
             justify-content: center;
             align-items: center;
 
+        }
+        .header{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+        }
+        .button{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            margin: 20px;
+        }
+        .button a{
+            margin: 10px 20px;
         }
             
 
