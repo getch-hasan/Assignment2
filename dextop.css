@@ -312,6 +312,7 @@ footer p{
         width: 45%;
         margin-left: 5px;
         margin-top: 20px;
+    }
         
        
        
@@ -319,6 +320,7 @@ footer p{
         
       
     }
+    
    
 
     
@@ -329,6 +331,7 @@ footer p{
  }
 
  @media screen and (min-width: 668px) and (max-width: 991px){
+     
      
      .influencer{
         display: grid;
